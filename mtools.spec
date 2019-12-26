@@ -3,7 +3,7 @@ Version:        4.0.18
 Release:        17
 Summary:        Collection of utilities to access MS-DOS disks
 License:        GPLv3+
-Url:            http://www.gnu.org/software/mtools/
+URL:            http://www.gnu.org/software/mtools/
 
 Source0:        ftp://ftp.gnu.org/gnu/mtools/mtools-%{version}.tar.bz2
 
