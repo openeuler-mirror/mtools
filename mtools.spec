@@ -53,7 +53,6 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
-
 * Fri Jan 10 2020 sunshihao <sunshihao@huawei.com> - 4.0.18-18
 - Type:enhancement
 - ID:NA
