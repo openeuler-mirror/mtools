@@ -1,0 +1,25 @@
+From 0e1339a54e9caacd015d99bf9e3e25d9d199c2f5 Mon Sep 17 00:00:00 2001
+From: eulerstorage <eulerstorage@huawei.com>
+Date: Mon, 2 Mar 2020 16:12:12 +0800
+Subject: [PATCH] comment invalid info in conf file
+
+---
+ mtools.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/mtools.conf b/mtools.conf
+index dc186df..1018bbd 100644
+--- a/mtools.conf
++++ b/mtools.conf
+@@ -16,7 +16,7 @@
+ 
+ # Example mtools.conf files.  Uncomment the lines which correspond to
+ # your architecture and comment out the "SAMPLE FILE" line below
+-SAMPLE FILE
++#SAMPLE FILE
+ 
+ # # Linux floppy drives
+ # drive a: file="/dev/fd0" exclusive
+-- 
+1.8.3.1
+
