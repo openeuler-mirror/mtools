@@ -55,10 +55,10 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
-* Jul 1 2020 Wu Bo <wubo009@163.com> - 4.0.18-20
+* Wed Jul 1 2020 Wu Bo <wubo009@163.com> - 4.0.18-20
 - rebuild package
 
-* Mar 2 2020 sunshihao <sunshihao@huawei.com> - 4.0.18-19
+* Fri Mar 2 2020 sunshihao <sunshihao@huawei.com> - 4.0.18-19
 - Type:enhancement
 - ID:NA
 - SUG:NA
