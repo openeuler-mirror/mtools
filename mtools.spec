@@ -1,6 +1,6 @@
 Name:           mtools
 Version:        4.0.18
-Release:        19
+Release:        20
 Summary:        Collection of utilities to access MS-DOS disks
 License:        GPLv3+
 URL:            http://www.gnu.org/software/mtools/
@@ -9,7 +9,7 @@ Source0:        ftp://ftp.gnu.org/gnu/mtools/mtools-%{version}.tar.bz2
 
 BuildRequires:  gcc git texinfo autoconf
 
-Patch0:         comment-invalid-info-in-conf-file.patch
+Patch0:         0000-comment-invalid-info-in-conf-file.patch
 
 %description
 Mtools is a collection of utilities to access MS-DOS disks from GNU
@@ -55,6 +55,9 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
+* Jul 1 2020 Wu Bo <wubo009@163.com> - 4.0.18-20
+- rebuild package
+
 * Mar 2 2020 sunshihao <sunshihao@huawei.com> - 4.0.18-19
 - Type:enhancement
 - ID:NA
