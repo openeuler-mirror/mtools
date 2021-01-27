@@ -1,5 +1,5 @@
 Name:           mtools
-Version:        4.0.24
+Version:        4.0.26
 Release:        1
 Summary:        Collection of utilities to access MS-DOS disks
 License:        GPLv3+
@@ -55,6 +55,9 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
+* Thu Jan 14 2020 yanglongkang <yanglongkang@huawei.com> - 4.0.26-1
+- update mtools version to 4.0.26
+
 * Thu Jul 16 2020 wuguanghao <wuguanghao3@huawei.com> - 4.0.24-1
 - update mtools version to 4.0.24-1 
 
