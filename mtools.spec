@@ -1,13 +1,13 @@
 Name:           mtools
 Version:        4.0.26
-Release:        1
+Release:        2
 Summary:        Collection of utilities to access MS-DOS disks
 License:        GPLv3+
 URL:            http://www.gnu.org/software/mtools/
 
 Source0:        ftp://ftp.gnu.org/gnu/mtools/mtools-%{version}.tar.bz2
 
-BuildRequires:  gcc git texinfo autoconf
+BuildRequires:  gcc texinfo autoconf
 
 Patch1:         0001-comment-invalid-info-in-conf-file.patch
 
@@ -28,7 +28,7 @@ Requires:       man
 This contains man files for the using of mtools.
 
 %prep
-%autosetup -n %{name}-%{version} -p1 -S git
+%autosetup -n %{name}-%{version} -p1
 
 %build
 autoreconf -fiv
@@ -55,6 +55,9 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
+* Fri Jul 30 2021 chenyanpanHW <chenyanpan@huawei.com> - 4.0.26-2
+- DESC: delete -S git from %autosetup, and delete BuildRequires git
+
 * Thu Jan 14 2020 yanglongkang <yanglongkang@huawei.com> - 4.0.26-1
 - update mtools version to 4.0.26
 
