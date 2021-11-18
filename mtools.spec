@@ -1,6 +1,6 @@
 Name:           mtools
-Version:        4.0.26
-Release:        2
+Version:        4.0.35
+Release:        1
 Summary:        Collection of utilities to access MS-DOS disks
 License:        GPLv3+
 URL:            http://www.gnu.org/software/mtools/
@@ -55,6 +55,9 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 %{_infodir}/mtools.info*
 
 %changelog
+* Thu Nov 18 2021 Wenchao Hao <haowenchao@huawei.com> - 4.0.35-1
+- update mtools version to 4.0.35
+
 * Fri Jul 30 2021 chenyanpanHW <chenyanpan@huawei.com> - 4.0.26-2
 - DESC: delete -S git from %autosetup, and delete BuildRequires git
 
