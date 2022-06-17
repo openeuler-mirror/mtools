@@ -61,7 +61,7 @@ ln -s mtools.5.gz %{buildroot}%{_mandir}/man5/mtools.conf.5.gz
 * Fri Jul 30 2021 chenyanpanHW <chenyanpan@huawei.com> - 4.0.26-2
 - DESC: delete -S git from %autosetup, and delete BuildRequires git
 
-* Thu Jan 14 2020 yanglongkang <yanglongkang@huawei.com> - 4.0.26-1
+* Tue Jan 14 2020 yanglongkang <yanglongkang@huawei.com> - 4.0.26-1
 - update mtools version to 4.0.26
 
 * Thu Jul 16 2020 wuguanghao <wuguanghao3@huawei.com> - 4.0.24-1
